@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Created-By: 1.7.0_80-b15 (Oracle Corporation)
+Extension-Name: org.apache.solr
+Specification-Title: Apache Solr Search Server: solr-langid
+Specification-Version: 4.10.2
+Specification-Vendor: The Apache Software Foundation
+Implementation-Title: org.apache.solr
+Implementation-Version: 4.10.2-SNAPSHOT Unversioned directory - root -
+  2016-04-26 16:26:07
+Implementation-Vendor: The Apache Software Foundation
+X-Compile-Source-JDK: 1.7
+X-Compile-Target-JDK: 1.7
+

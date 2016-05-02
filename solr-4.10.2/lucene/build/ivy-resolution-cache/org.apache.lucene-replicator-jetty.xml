@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="replicator"
+		revision="working@localhost.localdomain"
+		conf="jetty"
+		confs="http, jetty, start, servlet, logging"
+		date="20160426162237"/>
+	<dependencies>
+		<module organisation="org.eclipse.jetty" name="jetty-servlet">
+			<revision name="8.1.10.v20130312" status="release" pubdate="20130312220555" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="8669" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-servlet/ivy-8.1.10.v20130312.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="8.1.10.v20130312" rev-constraint-default="8.1.10.v20130312" rev-constraint-dynamic="8.1.10.v20130312" callerrev="working@localhost.localdomain"/>
+				<artifacts>
+					<artifact name="jetty-servlet" type="jar" ext="jar" status="no" details="" size="101052" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-8.1.10.v20130312.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-servlet/8.1.10.v20130312/jetty-servlet-8.1.10.v20130312.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-server">
+			<revision name="8.1.10.v20130312" status="release" pubdate="20130312220217" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="9157" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-server/ivy-8.1.10.v20130312.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="8.1.10.v20130312" rev-constraint-default="8.1.10.v20130312" rev-constraint-dynamic="8.1.10.v20130312" callerrev="working@localhost.localdomain"/>
+				<artifacts>
+					<artifact name="jetty-server" type="jar" ext="jar" status="no" details="" size="347020" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-8.1.10.v20130312.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-server/8.1.10.v20130312/jetty-server-8.1.10.v20130312.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-http">
+			<revision name="8.1.10.v20130312" status="release" pubdate="20130312215814" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="8609" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-http/ivy-8.1.10.v20130312.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.10.v20130312/jetty-http-8.1.10.v20130312.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="8.1.10.v20130312" rev-constraint-default="8.1.10.v20130312" rev-constraint-dynamic="8.1.10.v20130312" callerrev="working@localhost.localdomain"/>
+				<artifacts>
+					<artifact name="jetty-http" type="jar" ext="jar" status="no" details="" size="95709" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-8.1.10.v20130312.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-http/8.1.10.v20130312/jetty-http-8.1.10.v20130312.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-io">
+			<revision name="8.1.10.v20130312" status="release" pubdate="20130312215755" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="8468" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-io/ivy-8.1.10.v20130312.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.10.v20130312/jetty-io-8.1.10.v20130312.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="8.1.10.v20130312" rev-constraint-default="8.1.10.v20130312" rev-constraint-dynamic="8.1.10.v20130312" callerrev="working@localhost.localdomain"/>
+				<artifacts>
+					<artifact name="jetty-io" type="jar" ext="jar" status="no" details="" size="103622" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-8.1.10.v20130312.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-io/8.1.10.v20130312/jetty-io-8.1.10.v20130312.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-util">
+			<revision name="8.1.10.v20130312" status="release" pubdate="20130312215653" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="8836" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-util/ivy-8.1.10.v20130312.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.10.v20130312/jetty-util-8.1.10.v20130312.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="8.1.10.v20130312" rev-constraint-default="8.1.10.v20130312" rev-constraint-dynamic="8.1.10.v20130312" callerrev="working@localhost.localdomain"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="284903" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-8.1.10.v20130312.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-util/8.1.10.v20130312/jetty-util-8.1.10.v20130312.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.eclipse.jetty" name="jetty-continuation">
+			<revision name="8.1.10.v20130312" status="release" pubdate="20130312215836" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="8579" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-continuation/ivy-8.1.10.v20130312.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.10.v20130312/jetty-continuation-8.1.10.v20130312.pom"/>
+				<caller organisation="org.apache.lucene" name="replicator" conf="jetty" rev="8.1.10.v20130312" rev-constraint-default="8.1.10.v20130312" rev-constraint-dynamic="8.1.10.v20130312" callerrev="working@localhost.localdomain"/>
+				<artifacts>
+					<artifact name="jetty-continuation" type="jar" ext="jar" status="no" details="" size="21144" time="0" location="/home/kohtet/.ivy2/cache/org.eclipse.jetty/jetty-continuation/jars/jetty-continuation-8.1.10.v20130312.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-continuation/8.1.10.v20130312/jetty-continuation-8.1.10.v20130312.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
