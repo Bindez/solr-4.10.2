@@ -1,0 +1,195 @@
+!SESSION 2016-05-03 11:37:14.004 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2016-05-03 11:37:28.514
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-05-03 11:37:28.517
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='runjettyrun', id='runjettyrun.runJettyShortcut.run'
+
+!ENTRY org.eclipse.jface 2 0 2016-05-03 11:37:33.508
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-05-03 11:37:33.508
+!MESSAGE A conflict occurred for ALT+CTRL+R:
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CompareWithRevisionCommand,URL...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@fe34b86,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3c98781a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.vaadin.integration.eclipse 2 0 2016-05-03 11:38:11.196
+!MESSAGE Could not check Vaadin version in project RemoteSystemsTempFiles
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to find WEB-INF/lib folder. Ensure the project is a dynamic web project.
+	at com.vaadin.integration.eclipse.util.ErrorUtil.newCoreException(ErrorUtil.java:141)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getWebInfLibFolder(ProjectUtil.java:110)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getVaadinLibraryInProject(ProjectUtil.java:376)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getVaadinLibraryVersion(ProjectUtil.java:351)
+	at com.vaadin.integration.eclipse.background.CheckVaadinVersionsJob.getVaadinProjects(CheckVaadinVersionsJob.java:100)
+	at com.vaadin.integration.eclipse.background.CheckVaadinVersionsJob.run(CheckVaadinVersionsJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.vaadin.integration.eclipse 4 0 2016-05-03 11:38:11.199
+!MESSAGE Unable to find WEB-INF/lib folder. Ensure the project is a dynamic web project.
+
+!ENTRY com.vaadin.integration.eclipse 4 0 2016-05-03 11:38:14.217
+!MESSAGE 
+!STACK 1
+Java Model Exception: Java Model Status [RemoteSystemsTempFiles does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:508)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:246)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:521)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:258)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:244)
+	at org.eclipse.jdt.internal.core.JavaProject.getJavaProjectElementInfo(JavaProject.java:1641)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2328)
+	at org.eclipse.jdt.internal.core.JavaProject.newNameLookup(JavaProject.java:2338)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1356)
+	at org.eclipse.jdt.internal.core.JavaProject.findType(JavaProject.java:1263)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.findVaadinUiType(ProjectUtil.java:211)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.isVaadin7(ProjectUtil.java:515)
+	at com.vaadin.integration.eclipse.CheckAddonStylesBuilderJob.run(CheckAddonStylesBuilderJob.java:26)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2016-05-03 11:38:14.218
+!MESSAGE RemoteSystemsTempFiles does not exist
+!SESSION 2016-05-03 11:43:14.084 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2016-05-03 11:43:27.670
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-05-03 11:43:27.670
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='runjettyrun', id='runjettyrun.runJettyShortcut.run'
+
+!ENTRY org.eclipse.jface 2 0 2016-05-03 11:43:32.721
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-05-03 11:43:32.721
+!MESSAGE A conflict occurred for ALT+CTRL+R:
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CompareWithRevisionCommand,URL...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@176555c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7c781c42,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.vaadin.integration.eclipse 2 0 2016-05-03 11:44:07.508
+!MESSAGE Could not check Vaadin version in project RemoteSystemsTempFiles
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to find WEB-INF/lib folder. Ensure the project is a dynamic web project.
+	at com.vaadin.integration.eclipse.util.ErrorUtil.newCoreException(ErrorUtil.java:141)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getWebInfLibFolder(ProjectUtil.java:110)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getVaadinLibraryInProject(ProjectUtil.java:376)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getVaadinLibraryVersion(ProjectUtil.java:351)
+	at com.vaadin.integration.eclipse.background.CheckVaadinVersionsJob.getVaadinProjects(CheckVaadinVersionsJob.java:100)
+	at com.vaadin.integration.eclipse.background.CheckVaadinVersionsJob.run(CheckVaadinVersionsJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.vaadin.integration.eclipse 4 0 2016-05-03 11:44:07.509
+!MESSAGE Unable to find WEB-INF/lib folder. Ensure the project is a dynamic web project.
+!SESSION 2016-05-03 11:44:38.664 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2016-05-03 11:45:26.811
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-05-03 11:45:26.811
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='runjettyrun', id='runjettyrun.runJettyShortcut.run'
+
+!ENTRY org.eclipse.jface 2 0 2016-05-03 11:45:31.179
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-05-03 11:45:31.179
+!MESSAGE A conflict occurred for ALT+CTRL+R:
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CompareWithRevisionCommand,URL...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@75e27856,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6bccd036,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.vaadin.integration.eclipse 2 0 2016-05-03 11:46:04.900
+!MESSAGE Could not check Vaadin version in project RemoteSystemsTempFiles
+!STACK 1
+org.eclipse.core.runtime.CoreException: Unable to find WEB-INF/lib folder. Ensure the project is a dynamic web project.
+	at com.vaadin.integration.eclipse.util.ErrorUtil.newCoreException(ErrorUtil.java:141)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getWebInfLibFolder(ProjectUtil.java:110)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getVaadinLibraryInProject(ProjectUtil.java:376)
+	at com.vaadin.integration.eclipse.util.ProjectUtil.getVaadinLibraryVersion(ProjectUtil.java:351)
+	at com.vaadin.integration.eclipse.background.CheckVaadinVersionsJob.getVaadinProjects(CheckVaadinVersionsJob.java:100)
+	at com.vaadin.integration.eclipse.background.CheckVaadinVersionsJob.run(CheckVaadinVersionsJob.java:63)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 com.vaadin.integration.eclipse 4 0 2016-05-03 11:46:04.902
+!MESSAGE Unable to find WEB-INF/lib folder. Ensure the project is a dynamic web project.
+!SESSION 2016-05-03 11:48:41.824 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_72
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2016-05-03 11:49:08.544
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-05-03 11:49:08.544
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='runjettyrun', id='runjettyrun.runJettyShortcut.run'
+
+!ENTRY org.eclipse.jface 2 0 2016-05-03 11:49:11.703
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-05-03 11:49:11.703
+!MESSAGE A conflict occurred for ALT+CTRL+R:
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CompareWithRevisionCommand,URL...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49a6f486,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@14fded9d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)

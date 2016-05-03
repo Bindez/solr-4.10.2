@@ -1,0 +1,18 @@
+    <span style="font-family: Trebuchet MS, sans-serif;">
+    <dataConfig>  
+      <lib dir="./lib/mysqlDriver/lib" regex=".*\.jar" />
+    <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://188.166.224.50/hatespeeeed" user="test" password="1234aeiou" batchSize="1" />  
+        <document name="hatespeech">  
+      	<entity name="maxid" processor="SolrEntityProcessor" url="http://localhost:8080/solr-4.10.2/collection1" query="*:*" sort="id desc" 
+      	rows="1" fl="id">
+      		<field column="id" name="id" />  
+      
+          	<entity name="fb_comment" query="SELECT id,message FROM fb_comments where id >${maxid.id}" transformer="org.apache.solr.handler.dataimport.BurmesePreTransformer">  
+                <field column="id" name="id" />  
+                <field column="message" name="content" />  
+   			<field column="version" name="_version_" />
+            </entity>  
+      </entity>
+        </document>  
+    </dataConfig>  
+    </span>  

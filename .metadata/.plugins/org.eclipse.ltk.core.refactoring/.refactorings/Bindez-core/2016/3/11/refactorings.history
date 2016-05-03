@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Bindez-core&apos;&#x0A;- Original project: &apos;Bindez-core&apos;&#x0A;- Original element: &apos;Bindez-core/bindez/analysis-extras/src/java&apos;" description="Delete element" element1="/bindez\/analysis-extras\/src\/java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1457694855427" subPackages="false" version="1.0"/>
+</session>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=solr-4.10.2/lucene\/analysis\/common\/src\/java&lt;org.apache.lucene.analysis.th{ThaiTokenizerFactory.java[ThaiTokenizerFactory" modifiers="1" timestamp="1399424555000"/>
+<typeInfo handle="=solr-4.10.2/lucene\/analysis\/common\/src\/java&lt;org.apache.lucene.analysis.th{ThaiTokenizer.java[ThaiTokenizer" modifiers="1" timestamp="1399424555000"/>
+<typeInfo handle="=solr-4.10.2/lucene\/analysis\/common\/src\/java&lt;org.apache.lucene.analysis.cjk{CJKTokenizer.java[CJKTokenizer" modifiers="1048593" timestamp="1407388893000"/>
+<typeInfo handle="=solr-4.10.2/solr\/contrib\/clustering\/src\/java&lt;org.apache.solr.handler.clustering.carrot2{LuceneCarrot2TokenizerFactory.java[LuceneCarrot2TokenizerFactory[ChineseTokenizerFactory[ChineseTokenizer" modifiers="26" timestamp="1389634471000"/>
+<typeInfo handle="=solr-4.10.2/lucene\/analysis\/kuromoji\/src\/java&lt;org.apache.lucene.analysis.ja{JapaneseTokenizerFactory.java[JapaneseTokenizerFactory" modifiers="1" timestamp="1407388893000"/>
+<typeInfo handle="=solr-4.10.2/lucene\/analysis\/kuromoji\/src\/java&lt;org.apache.lucene.analysis.ja{JapaneseTokenizer.java[JapaneseTokenizer" modifiers="17" timestamp="1399424555000"/>
+</typeInfoHistroy>

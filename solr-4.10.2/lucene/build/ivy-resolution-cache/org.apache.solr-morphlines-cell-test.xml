@@ -7,14 +7,14 @@
 		revision="working@localhost.localdomain"
 		conf="test"
 		confs="test"
-		date="20160426162625"/>
+		date="20160503114754"/>
 	<dependencies>
 		<module organisation="org.slf4j" name="jcl-over-slf4j">
 			<revision name="1.7.6" status="release" pubdate="20140206050958" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="0">
-				<metadata-artifact status="no" details="" size="4928" time="0" location="/root/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.6.xml" searched="false" original-local-location="/root/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.pom"/>
+				<metadata-artifact status="no" details="" size="4928" time="0" location="/home/kohtet/.ivy2/cache/org.slf4j/jcl-over-slf4j/ivy-1.7.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.pom"/>
 				<caller organisation="org.apache.solr" name="morphlines-cell" conf="test" rev="1.7.6" rev-constraint-default="1.7.6" rev-constraint-dynamic="1.7.6" callerrev="working@localhost.localdomain"/>
 				<artifacts>
-					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16515" time="0" location="/root/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.6.jar">
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16515" time="0" location="/home/kohtet/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.6.jar">
 						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.6/jcl-over-slf4j-1.7.6.jar"/>
 					</artifact>
 				</artifacts>

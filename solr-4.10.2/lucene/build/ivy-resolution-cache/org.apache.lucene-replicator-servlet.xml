@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="servlet"
 		confs="http, jetty, start, servlet, logging"
-		date="20160426162237"/>
+		date="20160503114742"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty.orbit" name="javax.servlet">
 			<revision name="3.0.0.v201112011016" status="release" pubdate="20111208021915" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">

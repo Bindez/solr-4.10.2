@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160426162233"/>
+		date="20160503114737"/>
 	<dependencies>
 		<module organisation="com.bindez.nlp" name="content-extract">
 			<revision name="0.1.10" status="release" pubdate="20160401140511" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">

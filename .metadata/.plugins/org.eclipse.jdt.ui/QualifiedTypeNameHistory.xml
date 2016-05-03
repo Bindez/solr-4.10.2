@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.solr.util.plugin.ResourceLoaderAware"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.core.StopFilter"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.util.CharArraySet"/>
+<fullyQualifiedTypeName name="org.apache.lucene.queryparser.flexible.standard.parser.ParseException"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.TokenStream"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.mm.smart.MMStandardSylableTokenizer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.util.TokenFilterFactory"/>
+<fullyQualifiedTypeName name="org.apache.solr.analysis.MMStandardWordTokenizer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.TokenFilter"/>
+<fullyQualifiedTypeName name="org.apache.solr.analysis.mm.MMStandardWordTokenizer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.Tokenizer"/>
+<fullyQualifiedTypeName name="org.apache.solr.analysis.MMStandardWordTokenizerFactory"/>
+<fullyQualifiedTypeName name="org.apache.solr.common.ResourceLoader"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.MMStandardWordTokenizer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.th.MMStandardWordTokenizer"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.util.TokenizerFactory"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.util.SegmentingTokenizerBase"/>
+<fullyQualifiedTypeName name="org.apache.solr.parser.ParseException"/>
+<fullyQualifiedTypeName name="org.apache.solr.update.processor.LanguageIdentifierUpdateProcessor"/>
+<fullyQualifiedTypeName name="org.apache.solr.update.processor.UpdateRequestProcessor"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.Token"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.tokenizers.burmese.BurmeseWordTokenizer"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.tokenizers.Word"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.ja.dict.UserDictionary"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.detection.burmese.RegexBurmeseLanguageDetector"/>
+<fullyQualifiedTypeName name="org.apache.solr.handler.dataimport.Transformer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.unicodeconverter.ZawGyiToUni"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.detection.interfaces.Detector"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.detection.burmese.BurmeseLanguageDetector"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.detection.interfaces.BurmeseLanguageConstants"/>
+<fullyQualifiedTypeName name="org.apache.solr.update.processor.DetectedLanguage"/>
+<fullyQualifiedTypeName name="org.apache.solr.handler.dataimport.BurmesePreTransformer"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.spellcheck.BurmeseSpellchecker"/>
+</qualifiedTypeNameHistroy>
