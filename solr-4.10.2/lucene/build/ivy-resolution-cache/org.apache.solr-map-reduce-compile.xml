@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114753"/>
+		date="20160523005135"/>
 	<dependencies>
 		<module organisation="org.kitesdk" name="kite-morphlines-saxon">
 			<revision name="0.12.1" status="release" pubdate="20140319054601" resolver="cloudera" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">

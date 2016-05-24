@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114754"/>
+		date="20160523005146"/>
 	<dependencies>
 		<module organisation="org.kitesdk" name="kite-morphlines-avro">
 			<revision name="0.12.1" status="release" pubdate="20140319054446" resolver="cloudera" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">

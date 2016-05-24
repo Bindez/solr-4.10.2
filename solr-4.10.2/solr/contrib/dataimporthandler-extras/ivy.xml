@@ -36,7 +36,7 @@
     <dependency org="com.sun.mail" name="gimap" rev="${/com.sun.mail/gimap}" conf="compile"/>  
 
     <dependency org="org.slf4j" name="jcl-over-slf4j" rev="${/org.slf4j/jcl-over-slf4j}" conf="test"/>
-
+	<dependency org="com.bindez.nlp" name="spellcheck" rev="0.1.5" conf="compile"/>
     <exclude org="*" ext="*" matcher="regexp" type="${ivy.exclude.types}"/>
   </dependencies>
 </ivy-module>

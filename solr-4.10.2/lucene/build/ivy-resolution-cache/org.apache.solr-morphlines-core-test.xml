@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="test"
 		confs="test, test.DfsMiniCluster"
-		date="20160503114754"/>
+		date="20160523005146"/>
 	<dependencies>
 		<module organisation="org.apache.avro" name="avro">
 			<revision name="1.7.5" status="release" pubdate="20130808224651" resolver="public" artresolver="main" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="master" position="37">

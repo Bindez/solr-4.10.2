@@ -18,7 +18,7 @@
    under the License.    
 -->
 <ivy-module version="2.0">
-  <info organisation="org.apache.solr" module="dataimporthandler" revision="working@localhost.localdomain" status="integration" publication="20141022232951"/>
+  <info organisation="org.apache.solr" module="dataimporthandler" revision="working@localhost.localdomain" status="integration" publication="20160506142124"/>
   <configurations defaultconfmapping="compile->master;test->master">
     <conf name="compile" transitive="false"/> <!-- keep unused 'compile' configuration to allow build to succeed -->
     <conf name="test" transitive="false"/>
@@ -28,7 +28,7 @@
     <dependency org="org.apache.derby" name="derby" rev="10.9.1.0" conf="test"/>
     <dependency org="org.easymock" name="easymock" rev="3.0" conf="test"/>
     <dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.7.6" conf="test"/>
-
+	<dependency org="com.bindez.nlp" name="spellcheck" rev="0.1.5" conf="compile"/>
     <exclude org="*" ext="*" matcher="regexp" type="source|javadoc"/> 
   </dependencies>
 </ivy-module>

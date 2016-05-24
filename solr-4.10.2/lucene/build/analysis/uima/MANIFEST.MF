@@ -7,7 +7,7 @@ Specification-Version: 4.10.2
 Specification-Vendor: The Apache Software Foundation
 Implementation-Title: org.apache.lucene
 Implementation-Version: 4.10.2-SNAPSHOT Unversioned directory - kohtet
-  - 2016-04-05 15:43:38
+  - 2016-05-17 11:53:19
 Implementation-Vendor: The Apache Software Foundation
 X-Compile-Source-JDK: 1.7
 X-Compile-Target-JDK: 1.7

@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="logging"
 		confs="logging"
-		date="20160503114744"/>
+		date="20160523005200"/>
 	<dependencies>
 		<module organisation="org.slf4j" name="jul-to-slf4j">
 			<revision name="1.7.6" status="release" pubdate="20140206051026" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="3">

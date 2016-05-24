@@ -18,7 +18,7 @@
    under the License.    
 -->
 <ivy-module version="2.0">
-    <info organisation="org.apache.solr" module="dataimporthandler-extras" revision="working@localhost.localdomain" status="integration" publication="20141022232951"/>
+    <info organisation="org.apache.solr" module="dataimporthandler-extras" revision="working@localhost.localdomain" status="integration" publication="20160506142057"/>
 
     <!--
         NOTE: In order to reduce Jar duplication, the build.xml file for 
@@ -37,7 +37,7 @@
     <dependency org="com.sun.mail" name="gimap" rev="1.5.1" conf="compile"/>  
 
     <dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.7.6" conf="test"/>
-
+	<dependency org="com.bindez.nlp" name="spellcheck" rev="0.1.5" conf="compile"/>
     <exclude org="*" ext="*" matcher="regexp" type="source|javadoc"/>
   </dependencies>
 </ivy-module>

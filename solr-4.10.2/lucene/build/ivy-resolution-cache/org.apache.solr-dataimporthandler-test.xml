@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="test"
 		confs="test"
-		date="20160503114751"/>
+		date="20160523005120"/>
 	<dependencies>
 		<module organisation="org.slf4j" name="jcl-over-slf4j">
 			<revision name="1.7.6" status="release" pubdate="20140206050958" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="3">

@@ -7,7 +7,18 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114751"/>
+		date="20160523005120"/>
 	<dependencies>
+		<module organisation="com.bindez.nlp" name="spellcheck">
+			<revision name="0.1.5" status="release" pubdate="20160408063506" resolver="nlpContentExtract" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="2243" time="0" location="/home/kohtet/.ivy2/cache/com.bindez.nlp/spellcheck/ivy-0.1.5.xml" searched="false" origin-is-local="false" origin-location="http://128.199.114.200/artifactory/libs-release-local/com/bindez/nlp/spellcheck/0.1.5/spellcheck-0.1.5.pom"/>
+				<caller organisation="org.apache.solr" name="dataimporthandler" conf="compile" rev="0.1.5" rev-constraint-default="0.1.5" rev-constraint-dynamic="0.1.5" callerrev="working@localhost.localdomain"/>
+				<artifacts>
+					<artifact name="spellcheck" type="jar" ext="jar" status="no" details="" size="19413" time="0" location="/home/kohtet/.ivy2/cache/com.bindez.nlp/spellcheck/jars/spellcheck-0.1.5.jar">
+						<origin-location is-local="false" location="http://128.199.114.200/artifactory/libs-release-local/com/bindez/nlp/spellcheck/0.1.5/spellcheck-0.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 	</dependencies>
 </ivy-report>

@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114753"/>
+		date="20160523005127"/>
 	<dependencies>
 		<module organisation="com.bindez.nlp" name="spellcheck">
 			<revision name="0.1.5" status="release" pubdate="20160408063506" resolver="nlpContentExtract" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">

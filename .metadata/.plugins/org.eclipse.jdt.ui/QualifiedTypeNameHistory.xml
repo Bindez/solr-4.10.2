@@ -27,13 +27,14 @@
 <fullyQualifiedTypeName name="com.bindez.nlp.detection.burmese.RegexBurmeseLanguageDetector"/>
 <fullyQualifiedTypeName name="org.apache.solr.handler.dataimport.Transformer"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="com.bindez.nlp.unicodeconverter.ZawGyiToUni"/>
 <fullyQualifiedTypeName name="com.bindez.nlp.detection.interfaces.Detector"/>
-<fullyQualifiedTypeName name="com.bindez.nlp.detection.burmese.BurmeseLanguageDetector"/>
-<fullyQualifiedTypeName name="com.bindez.nlp.detection.interfaces.BurmeseLanguageConstants"/>
 <fullyQualifiedTypeName name="org.apache.solr.update.processor.DetectedLanguage"/>
 <fullyQualifiedTypeName name="org.apache.solr.handler.dataimport.BurmesePreTransformer"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.lucene.analysis.tokenattributes.TypeAttribute"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.detection.burmese.BurmeseLanguageDetector"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.unicodeconverter.ZawGyiToUni"/>
+<fullyQualifiedTypeName name="com.bindez.nlp.detection.interfaces.BurmeseLanguageConstants"/>
 <fullyQualifiedTypeName name="com.bindez.nlp.spellcheck.BurmeseSpellchecker"/>
 </qualifiedTypeNameHistroy>

@@ -6,20 +6,20 @@
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="default" key="selection"/>
+		<item value="detectLanguage" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="default"/>
-			<item value="defaultsearch"/>
-			<item value="default search"/>
-			<item value="high"/>
-			<item value="txt_general"/>
-			<item value="dataimport"/>
-			<item value="/updatechain"/>
-			<item value="/update"/>
+			<item value="detectLanguage"/>
+			<item value="deteclanguage"/>
+			<item value="detec"/>
+			<item value="bindezupdatechain"/>
+			<item value="bindezupdate"/>
+			<item value="detectlan"/>
+			<item value="detect"/>
+			<item value="/dataimport"/>
 		</list>
 		<list key="replacehistory">
 		</list>
@@ -28,7 +28,7 @@
 		<item value="285" key="DIALOG_WIDTH"/>
 		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 		<item value="461" key="DIALOG_HEIGHT"/>
-		<item value="59" key="DIALOG_X_ORIGIN"/>
-		<item value="165" key="DIALOG_Y_ORIGIN"/>
+		<item value="99" key="DIALOG_X_ORIGIN"/>
+		<item value="177" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114736"/>
+		date="20160523004909"/>
 	<dependencies>
 		<module organisation="commons-codec" name="commons-codec">
 			<revision name="1.9" status="release" pubdate="20131221102739" resolver="public" artresolver="main" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="master" position="0">

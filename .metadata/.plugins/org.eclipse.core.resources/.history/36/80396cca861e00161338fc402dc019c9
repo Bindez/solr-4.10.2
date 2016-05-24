@@ -1,0 +1,14 @@
+<span style="font-family: Trebuchet MS, sans-serif;"><dataConfig>  
+      
+    <dataSource type="JdbcDataSource" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://188.166.224.50/hatespeeeed" user="test" password="1234aeiou" batchSize="1" />  
+        <document name="hatespeech">  
+      
+            <entity name="fb_comment" query="SELECT id,message FROM fb_comments where id = 87 or id = 89 ">  
+                <field column="id" name="id" />  
+                <field column="message" name="content" />  
+   				<field column="version" name="_version_" />
+            </entity>  
+      
+        </document>  
+    </dataConfig>  
+    </span> 

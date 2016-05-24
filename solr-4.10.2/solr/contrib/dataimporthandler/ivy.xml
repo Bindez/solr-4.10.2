@@ -27,7 +27,7 @@
     <dependency org="org.apache.derby" name="derby" rev="${/org.apache.derby/derby}" conf="test"/>
     <dependency org="org.easymock" name="easymock" rev="${/org.easymock/easymock}" conf="test"/>
     <dependency org="org.slf4j" name="jcl-over-slf4j" rev="${/org.slf4j/jcl-over-slf4j}" conf="test"/>
-
+	<dependency org="com.bindez.nlp" name="spellcheck" rev="0.1.5" conf="compile"/>
     <exclude org="*" ext="*" matcher="regexp" type="${ivy.exclude.types}"/> 
   </dependencies>
 </ivy-module>

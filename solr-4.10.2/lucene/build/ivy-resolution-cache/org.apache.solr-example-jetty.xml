@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="jetty"
 		confs="jetty"
-		date="20160503114743"/>
+		date="20160523005200"/>
 	<dependencies>
 		<module organisation="org.eclipse.jetty" name="jetty-deploy">
 			<revision name="8.1.10.v20130312" status="release" pubdate="20130312221802" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">

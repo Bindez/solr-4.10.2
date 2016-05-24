@@ -45,7 +45,7 @@
     <dependency org="com.carrotsearch" name="hppc" rev="${/com.carrotsearch/hppc}" conf="compile"/>
     <dependency org="log4j" name="log4j" rev="${/log4j/log4j}" conf="compile"/>
     <dependency org="org.slf4j" name="slf4j-log4j12" rev="${/org.slf4j/slf4j-log4j12}" conf="compile"/>
-	   <dependency org="com.bindez.nlp" name="content-extract" rev="0.1.10" conf="compile"/>
+	   <dependency org="com.bindez.nlp" name="content-extract" rev="0.1.14" conf="compile"/>
 	    <dependency org="com.bindez.nlp" name="converter" rev="0.1.10" conf="compile"/>
 	    <dependency org="com.bindez.nlp" name="detector" rev="0.1.5" conf="compile"/>
     <dependency org="javax.servlet" name="javax.servlet-api" rev="${/javax.servlet/javax.servlet-api}" conf="test"/>

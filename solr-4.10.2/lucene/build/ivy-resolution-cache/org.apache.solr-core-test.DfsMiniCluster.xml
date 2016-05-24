@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="test.DfsMiniCluster"
 		confs="test, test.DfsMiniCluster"
-		date="20160503114747"/>
+		date="20160523005159"/>
 	<dependencies>
 		<module organisation="commons-collections" name="commons-collections">
 			<revision name="3.2.1" status="release" pubdate="20080415073924" resolver="default" artresolver="main" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="master" position="5">

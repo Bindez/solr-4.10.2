@@ -22,6 +22,6 @@
     <conf name="compile" transitive="false"/>
   </configurations>
   <dependencies>
-    <dependency org="com.bindez.nlp" name="content-extract" rev="0.1.10" conf="compile"/>
+    <dependency org="com.bindez.nlp" name="content-extract" rev="0.1.14" conf="compile"/>
   </dependencies>
 </ivy-module>

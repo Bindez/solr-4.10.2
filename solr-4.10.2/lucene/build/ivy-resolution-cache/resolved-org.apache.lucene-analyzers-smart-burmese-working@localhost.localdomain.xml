@@ -18,11 +18,11 @@
    under the License.    
 -->
 <ivy-module version="2.0">
-  <info organisation="org.apache.lucene" module="analyzers-smart-burmese" revision="working@localhost.localdomain" status="integration" publication="20160404144240"/>
+  <info organisation="org.apache.lucene" module="analyzers-smart-burmese" revision="working@localhost.localdomain" status="integration" publication="20160517111352"/>
   <configurations defaultconfmapping="compile->master">
     <conf name="compile" transitive="false"/>
   </configurations>
   <dependencies>
-    <dependency org="com.bindez.nlp" name="content-extract" rev="0.1.10" conf="compile"/>
+    <dependency org="com.bindez.nlp" name="content-extract" rev="0.1.14" conf="compile"/>
   </dependencies>
 </ivy-module>

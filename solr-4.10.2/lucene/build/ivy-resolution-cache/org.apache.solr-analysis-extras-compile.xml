@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114749"/>
+		date="20160523005154"/>
 	<dependencies>
 		<module organisation="org.carrot2" name="morfologik-polish">
 			<revision name="1.7.1" status="release" pubdate="20130716202600" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">

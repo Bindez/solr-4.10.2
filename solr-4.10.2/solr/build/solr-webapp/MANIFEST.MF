@@ -6,8 +6,8 @@ Specification-Title: Apache Solr Search Server
 Specification-Version: 4.10.2
 Specification-Vendor: The Apache Software Foundation
 Implementation-Title: org.apache.solr
-Implementation-Version: 4.10.2-SNAPSHOT Unversioned directory - root -
-  2016-04-26 16:26:37
+Implementation-Version: 4.10.2-SNAPSHOT Unversioned directory - kohtet
+  - 2016-05-23 00:51:51
 Implementation-Vendor: The Apache Software Foundation
 X-Compile-Source-JDK: 1.7
 X-Compile-Target-JDK: 1.7

@@ -3,15 +3,15 @@ package org.apache.solr.handler.dataimport;
 import java.util.List;
 import java.util.Map;
 
-import org.apache.solr.update.processor.DetectedLanguage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.bindez.nlp.detection.burmese.BurmeseLanguageDetector;
 import com.bindez.nlp.detection.interfaces.BurmeseLanguageConstants;
-import com.bindez.nlp.detection.interfaces.Detector;
 import com.bindez.nlp.spellcheck.BurmeseSpellchecker;
 import com.bindez.nlp.unicodeconverter.ZawGyiToUni;
+
+
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
@@ -47,7 +47,7 @@ public class BurmesePreTransformer extends Transformer{
         Object value = row.get(columnName);
         if(value != null)
         {
-          if(columnName.equals("message"))
+         if(columnName.equals("message"))
           {
             String content = value.toString();
             BurmeseLanguageDetector detector = new BurmeseLanguageDetector();
@@ -63,10 +63,11 @@ public class BurmesePreTransformer extends Transformer{
             }
             content = spellchecker.normalization(content);
             row.put(columnName, content);
-            row.put(columnName, content);
+            
            
           }
           
+        
         }
       }
     }

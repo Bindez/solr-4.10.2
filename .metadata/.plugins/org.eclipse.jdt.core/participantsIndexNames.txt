@@ -5,6 +5,8 @@ INDEX VERSION 1.126
 /Bindez-core/lucene/src/java
 /home/kohtet/Bindez-coreLatest/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2433181972.index
 /solr-4.10.2/lucene/core/src/java
+/home/kohtet/solr4.10.2ingit/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2433181972.index
+/solr-4.10.2/lucene/core/src/java
 /home/kohtet/Bindez-coreLatest/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1631815294.index
 /Bindez-core/lucene/src/java
 /home/kohtet/Bindez-coreLatest/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1189162774.index

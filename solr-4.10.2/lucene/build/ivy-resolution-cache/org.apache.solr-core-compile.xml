@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile, compile.hadoop"
-		date="20160503114745"/>
+		date="20160523005159"/>
 	<dependencies>
 		<module organisation="com.bindez.nlp" name="detector">
 			<revision name="0.1.5" status="release" pubdate="20160406192018" resolver="nlpContentExtract" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="18">
@@ -32,12 +32,12 @@
 			</revision>
 		</module>
 		<module organisation="com.bindez.nlp" name="content-extract">
-			<revision name="0.1.10" status="release" pubdate="20160401140511" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="16">
-				<metadata-artifact status="no" details="" size="2254" time="0" location="/home/kohtet/.ivy2/cache/com.bindez.nlp/content-extract/ivy-0.1.10.xml" searched="false" origin-is-local="false" origin-location="http://128.199.114.200/artifactory/libs-release-local/com/bindez/nlp/content-extract/0.1.10/content-extract-0.1.10.pom"/>
-				<caller organisation="org.apache.solr" name="core" conf="compile" rev="0.1.10" rev-constraint-default="0.1.10" rev-constraint-dynamic="0.1.10" callerrev="working@localhost.localdomain"/>
+			<revision name="0.1.14" status="release" pubdate="20160517111605" resolver="nlpContentExtract" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="16">
+				<metadata-artifact status="no" details="" size="2254" time="0" location="/home/kohtet/.ivy2/cache/com.bindez.nlp/content-extract/ivy-0.1.14.xml" searched="false" origin-is-local="false" origin-location="http://128.199.114.200/artifactory/libs-release-local/com/bindez/nlp/content-extract/0.1.14/content-extract-0.1.14.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="0.1.14" rev-constraint-default="0.1.14" rev-constraint-dynamic="0.1.14" callerrev="working@localhost.localdomain"/>
 				<artifacts>
-					<artifact name="content-extract" type="jar" ext="jar" status="no" details="" size="9206746" time="0" location="/home/kohtet/.ivy2/cache/com.bindez.nlp/content-extract/jars/content-extract-0.1.10.jar">
-						<origin-location is-local="false" location="http://128.199.114.200/artifactory/libs-release-local/com/bindez/nlp/content-extract/0.1.10/content-extract-0.1.10.jar"/>
+					<artifact name="content-extract" type="jar" ext="jar" status="no" details="" size="9209761" time="0" location="/home/kohtet/.ivy2/cache/com.bindez.nlp/content-extract/jars/content-extract-0.1.14.jar">
+						<origin-location is-local="false" location="http://128.199.114.200/artifactory/libs-release-local/com/bindez/nlp/content-extract/0.1.14/content-extract-0.1.14.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

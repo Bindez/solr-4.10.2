@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114739"/>
+		date="20160523004912"/>
 	<dependencies>
 		<module organisation="org.ow2.asm" name="asm-commons">
 			<revision name="4.1" status="release" pubdate="20121014220823" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">

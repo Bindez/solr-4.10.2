@@ -166,11 +166,10 @@ public class DirectUpdateHandler2 extends UpdateHandler implements SolrCoreState
       throw e;
     } catch (RuntimeException t) {
       throw new SolrException(SolrException.ErrorCode.SERVER_ERROR,
-          String.format(Locale.ROOT, "Exception writing document id %s to the index; possible analysis error.",
+          String.format(Locale.ROOT, "Exception writing document id %s to the index; possible analysis error."+":"+cmd.getSolrInputDocument().toString(),
           cmd.getPrintableId()), t);
     }
   }
-
   /**
    * This is the implementation of {@link #addDoc0(AddUpdateCommand)}. It is factored out to allow an exception
    * handler to decorate RuntimeExceptions with information about the document being handled.

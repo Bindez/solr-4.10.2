@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114754"/>
+		date="20160523005140"/>
 	<dependencies>
 		<module organisation="org.kitesdk" name="kite-morphlines-twitter">
 			<revision name="0.12.1" status="release" pubdate="20140319054643" resolver="cloudera" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">

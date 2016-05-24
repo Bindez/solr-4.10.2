@@ -21,10 +21,10 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
+import org.apache.lucene.analysis.tokenattributes.TypeAttribute;
 import org.apache.lucene.analysis.util.RollingCharBuffer;
 import org.apache.lucene.util.AttributeFactory;
 
@@ -44,6 +44,7 @@ public final class MMStandardWordTokenizer extends Tokenizer {
 
  private final CharTermAttribute termAtt = addAttribute(CharTermAttribute.class);
  private final OffsetAttribute offsetAtt = addAttribute(OffsetAttribute.class);
+ private final TypeAttribute typeAtt = addAttribute(TypeAttribute.class);
 
  /** Max word length */
  private static final int MAX_WORD_LEN = 255;
@@ -155,19 +156,25 @@ public final class MMStandardWordTokenizer extends Tokenizer {
     wordCount++ ;
 //    System.out.println(wordCount +" : "+ word.getText().toString() +" , "+word.getStart()+"-"+word.getEnd() );
     
-    if (word.getText().length() > 0) {
-      termAtt.copyBuffer(word.getText().toCharArray(), 0, word.getText().length()); // only for token.
-      offsetAtt.setOffset(correctOffset(offset+word.getStart()), correctOffset(offset+word.getEnd()));
-       // typeAtt.setType(TOKENTYPE_WORD); 
-        
-        if(wordArrayIndex == wordArray.size()){
-        offset += word.getEnd() ;
+    if (word.getText().length() > 0) 
+    {
+      if(word.getStart() <= word.getEnd())
+      {
+        termAtt.copyBuffer(word.getText().toCharArray(), 0, word.getText().length()); // only for token.
+        offsetAtt.setOffset(correctOffset(offset+word.getStart()), correctOffset(offset+word.getEnd()));
+          typeAtt.setType(TOKENTYPE_WORD); 
+          
+          if(wordArrayIndex == wordArray.size())
+          {
+            offset += word.getEnd() ;
+          }
       }
+     
         return true;
     } else { // just workaround for empty token. Need to fix by NLP team
       termAtt.copyBuffer("-".toCharArray(), 0, 1); // only for token.
       offsetAtt.setOffset(correctOffset(offset+word.getStart()), correctOffset(offset+word.getEnd()));
-      //  typeAtt.setType(TOKENTYPE_WORD); 
+       typeAtt.setType(TOKENTYPE_WORD); 
         
         if(wordArrayIndex == wordArray.size()){
         offset += word.getEnd() ;

@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114750"/>
+		date="20160523005110"/>
 	<dependencies>
 		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
 			<revision name="1.9.13" status="release" pubdate="20130715093750" resolver="default" artresolver="main" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="master" position="7">

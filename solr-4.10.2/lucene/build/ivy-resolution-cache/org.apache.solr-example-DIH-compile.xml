@@ -7,7 +7,7 @@
 		revision="working@localhost.localdomain"
 		conf="compile"
 		confs="compile"
-		date="20160503114745"/>
+		date="20160523005200"/>
 	<dependencies>
 		<module organisation="org.apache.derby" name="derby">
 			<revision name="10.9.1.0" status="release" pubdate="20120626185916" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
